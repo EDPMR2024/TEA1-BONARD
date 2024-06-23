@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="edit_text_preference"
+        android:title="Pseudo"
+        android:defaultValue=""
+        android:inputType="text" />
+
+    <SwitchPreference
+        android:key="switch_preference"
+        android:title="Effacer l'historique des pseudos"
+        android:defaultValue="false" />
+</PreferenceScreen>
